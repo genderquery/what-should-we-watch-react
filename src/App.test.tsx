@@ -19,7 +19,7 @@ const withMockLocation = (Component: React.ReactElement, initialPath = "/") => {
 test("render welcome page", () => {
   const { ui } = withMockLocation(<App />);
   const { getByText } = render(ui);
-  expect(getByText(/hello world/i)).toBeInTheDocument();
+  expect(getByText(/what should we watch/i)).toBeInTheDocument();
 });
 
 test("render not found page", () => {

@@ -21,8 +21,8 @@ const WelcomePage: React.FunctionComponent<Props> = (props) => {
   const classes = useStyles(props);
   return (
     <Container maxWidth="sm" className={classes.root}>
-      <Typography component="h1" variant="h1">
-        Hello world!
+      <Typography component="h1" variant="h3">
+        What should we watch?
       </Typography>
     </Container>
   );

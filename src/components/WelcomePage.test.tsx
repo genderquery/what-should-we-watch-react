@@ -4,6 +4,6 @@ import WelcomePage from "./WelcomePage";
 
 test("renders hello world", () => {
   const { getByText } = render(<WelcomePage />);
-  const headerElement = getByText(/hello world/i);
+  const headerElement = getByText(/what should we watch/i);
   expect(headerElement).toBeInTheDocument();
 });
